@@ -1,0 +1,40 @@
+import Head from 'next/head'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import ContactMePopup from '../ContactMePopup';
+import { useContext, useEffect } from 'react';
+import { UIContext } from '../../contexts/UIContext';
+
+const containerDefaultClass = "flex flex-col items-center justify-center min-h-screen bg-white";
+
+export default function DefaultLayout({ children, head, header, footer, pageTitle = null, defaultClass, containerStyle }) {
+    const title = pageTitle || 'Bogdan Dolin | Front-End Developer';
+    const [UI] = useContext(UIContext);
+
+    useEffect(() => {
+        document.body.className = UI.contactPopupVisible ? 'overflow-hidden' : 'auto';
+    }, [UI.contactPopupVisible]);
+
+    const defaultHead = head || (
+        <Head>
+            <title>{title}</title>
+            <link rel="icon" href="/favicon.ico" />
+        </Head>
+    );
+
+    const defaultHeader = header || <Header />;
+    const defaultFooter = footer || <Footer />;
+    const containerClass = defaultClass || containerDefaultClass;
+
+    return (
+
+        <div className={containerClass} style={containerStyle}>
+            {defaultHead}
+            {defaultHeader}
+            {children}
+            {defaultFooter}
+            {UI.contactPopupVisible && <ContactMePopup />}
+        </div>
+
+    )
+}

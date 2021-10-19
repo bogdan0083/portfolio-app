@@ -1,0 +1,6 @@
+@import 'tailwindcss/components';
+
+.title {
+    background-color: red;
+    @apply text-green-500;
+}

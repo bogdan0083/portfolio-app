@@ -1,0 +1,209 @@
+{
+    "items": [
+        {
+            "name": "gagarin",
+            "title": "Gagarin Sports Management",
+            "caption": [
+                "Famous Russian athlete management",
+                "agency specializing in professional",
+                "mixed martial arts."
+            ],
+            "url": "https://gagarinsport.com/",
+            "collaboration": "Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>"
+        },
+        {
+            "name": "glamurix",
+            "title": "Glamurix",
+            "caption": [
+                "Beauty service for searching ",
+                "beauty salons around you."
+            ],
+            "url": "https://glamurix.ru/",
+            "collaboration": "Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>"
+        },
+        {
+            "name": "formani",
+            "title": "Formani",
+            "caption": [
+                "Global luxury brand specialized",
+                "in architectural hardware."
+            ],
+            "url": "https://formani.com/"
+        },
+        {
+            "name": "sezar",
+            "title": "Sezar Group",
+            "url": "https://sezar-group.ru/en",
+            "caption": "High-end real estate developer.",
+            "collaboration": "Collaboration with <a href='https://www.liqium.ru/' target='_blank'>Liqium</a>"
+        },
+        {
+            "name": "cgk",
+            "title": "CGK Agency",
+            "caption": [
+                "Moscow Geodesy, Cartography",
+                "and Cadastre Agency."
+            ],
+            "url": "https://ya.ru",
+            "collaboration": "Collaboration with <a href='https://www.liqium.ru/' target='_blank'>Liqium</a>",
+            "pages": [
+                {
+                    "title": "Home",
+                    "slug": "index"
+                },
+                {
+                    "title": "About",
+                    "slug": "about"
+                },
+                {
+                    "title": "Contact",
+                    "slug": "contact"
+                },
+                {
+                    "title": "Info",
+                    "slug": "info"
+                },
+                {
+                    "title": "Technical Plan",
+                    "slug": "plan"
+                },
+                {
+                    "title": "Services",
+                    "slug": "services"
+                },
+                {
+                    "title": "Single Service",
+                    "slug": "service-nedvizh"
+                }
+            ]
+        },
+        {
+            "name": "ltc",
+            "title": "LTC",
+            "url": "http://ltcspb.ru/",
+            "caption": [
+                "Russian's biggest tour operator.",
+                "Turn your dream into the adventure of a lifetime."
+            ],
+            "collaboration": "Design by <a href='https://kozyris.com/' target='_blank'>Kozyris & Co</a>"
+        },
+        {
+            "name": "dekanter",
+            "title": "Dekanter",
+            "url": "https://dekanter.online/",
+            "caption": [
+                "Service for wine lovers."
+            ],
+            "collaboration": "Back-end by <a href='https://kozyris.com/' target='_blank'>Kozyris & Co</a>"
+        },
+        {
+            "name": "fpm",
+            "title": "Pharmmedprom",
+            "url": "https://pharmmedprom.ru/",
+            "caption": [
+                "Social Media about medicine and healthcare."
+            ],
+            "collaboration": "Front-end and Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>"
+        },
+        {
+            "name": "technos",
+            "title": "Technos 96",
+            "url": "https://tehnos96.ru/",
+            "caption": [
+                "Services for the sale and repair of cash registers,",
+                "weighing equipment, banking equipment."
+            ],
+            "collaboration": "Back-end and Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>"
+        },
+        {
+            "name": "nabat",
+            "title": "NaBat",
+            "url": "https://nabatt.ru/",
+            "caption": [
+                "Electric scooter servicing."
+            ]
+        },
+        {
+            "name": "questteam",
+            "title": "QuestTeam",
+            "caption": [
+                "Exiting team quests service."
+            ],
+            "collaboration": "Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>",
+            "pages": [
+                {
+                    "title": "Home",
+                    "slug": "index"
+                },
+                {
+                    "title": "Login",
+                    "slug": "login"
+                },
+                {
+                    "title": "Sign Up",
+                    "slug": "registration"
+                },
+                {
+                    "title": "News",
+                    "slug": "news"
+                },
+                {
+                    "title": "News: Article",
+                    "slug": "news-article"
+                },
+                {
+                    "title": "Feedback",
+                    "slug": "feedback"
+                },
+                {
+                    "title": "Teams",
+                    "slug": "teams"
+                },
+                {
+                    "title": "Team: Create",
+                    "slug": "team-create"
+                },
+                {
+                    "title": "My Team",
+                    "slug": "team"
+                },
+                {
+                    "title": "Profile: Current Teams",
+                    "slug": "cabinet-current-teams"
+                },
+                {
+                    "title": "Profile: History",
+                    "slug": "cabinet-history"
+                },
+                {
+                    "title": "Profile: Change Password",
+                    "slug": "cabinet-password-user"
+                },
+                {
+                    "title": "Profile: Change Profile",
+                    "slug": "cabinet-private"
+                },
+                {
+                    "title": "Profile: Active Quests",
+                    "slug": "cabinet-quests"
+                },
+                {
+                    "title": "Profile: Wishes",
+                    "slug": "cabinet-wishes"
+                },
+                {
+                    "title": "Profile: Notifications",
+                    "slug": "notifications"
+                }
+            ]
+        },
+        {
+            "name": "timesprint",
+            "title": "TimeSprint",
+            "url": "https://timesprint.ru/",
+            "caption": [
+                "Pravda newspaper - an original gift for birthday."
+            ]
+        }
+    ]
+}

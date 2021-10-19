@@ -1,0 +1,33 @@
+@tailwind components;
+.icon {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @apply transition-opacity hover:opacity-50;
+}
+
+.icon svg {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.iconWhite {
+    background-color: #fff;
+}
+
+.iconWhite svg path {
+    fill: #232741
+}
+
+.iconDark {
+    @apply bg-space-default
+}
+
+.iconDark svg path {
+    fill: white;
+}

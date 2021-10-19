@@ -1,0 +1,19 @@
+.SocialIcons {
+    @apply ml-auto items-center justify-between hidden sm:flex;
+}
+
+.SocialIconsMobile {
+    @apply mt-auto flex items-center justify-between sm:flex;
+}
+
+.SocialIcons a {
+    @apply ml-1 sm:ml-3;
+}
+
+.SocialIconsMobile a {
+    @apply ml-1 sm:ml-3;
+}
+
+.SocialIcons a:first-child {
+    @apply ml-0;
+}

@@ -1,0 +1,22 @@
+.container {
+    @apply inline-block h-11 sm:h-14 align-middle self-center mx-auto mt-4 sm:mt-7 text-center bg-indigo-900 text-white w-72 sm:w-72 font-bold text-center text-xl sm:text-xl relative shadow;
+}
+
+.item {
+    @apply absolute w-full top-0 left-0 opacity-0 flex items-center justify-center h-full;
+    text-shadow: 0px 0px 14px rgba(255, 0, 0, 0.36);
+    transition: all 0.8s;
+}
+
+.current {
+    transform: translateY(-0.2rem);
+    opacity: 1;
+}
+
+.next {
+    transform: translateY(-100%);
+}
+
+.prev {
+    transform: translateY(100%);
+}

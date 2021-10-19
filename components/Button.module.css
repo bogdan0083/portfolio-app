@@ -1,0 +1,12 @@
+
+.button {
+    @apply flex border-2 items-center p-3 self-center hover:bg-white hover:text-space-default transition-all font-semibold sm:flex text-white mx-auto;
+}
+
+.buttonLight {
+    @apply hover:bg-white hover:text-space-default transition-all font-semibold sm:flex text-white;
+}
+
+.buttonDark {
+    @apply hover:bg-space-default hover:text-white transition-all font-semibold hidden sm:flex text-space-default border-space-default;
+}
