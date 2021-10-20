@@ -4,7 +4,7 @@ import styles from "./FeaturesSlider.module.css";
 
 const settings = {
   duration: 600,
-  delay: 5000,
+  delay: 4000,
 };
 
 const items = [
@@ -18,19 +18,13 @@ const items = [
     title: 'Complex UI Animations',
   },
   {
-    title: 'Making Your Users Happy',
+    title: 'Web Perfomance',
   },
   {
-    title: 'Done In Time',
+    title: 'Responsive Interfaces',
   },
   {
-    title: 'Complex but Simple'
-  },
-  {
-    title: 'Responsive on Mobile'
-  },
-  {
-    title: 'Pleasantly Animated'
+    title: 'Making Users Happy',
   }
 ];
 

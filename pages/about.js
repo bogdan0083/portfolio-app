@@ -19,7 +19,7 @@ export default function AboutPage() {
       <section className="pt-24 pb-8 md:pb-20 md:pt-36 text-white z-10 text-left w-full min-h-screen">
         <div className="container mx-auto px-3">
           <h3 className="text-4xl font-bold mb-6 md:mb-6 md:text-5xl text-center">About Me</h3>
-          <div className="mx-auto md:w-full lg:w-11/12 xl:w-8/12 2xl:w-7/12">
+          <div className="mx-auto md:w-full lg:w-11/12 xl:w-8/12 2xl:w-8/12">
             <div className="-ml-2 -mr-2 md:flex">
               <div className="p-2 md:mr-10">
                 <div className="border-4 w-44 h-44 bg-space-default rounded-full mx-auto mb-5"></div>

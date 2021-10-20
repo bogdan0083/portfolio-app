@@ -49,7 +49,7 @@
 }
 
 .caption {
-    @apply md:text-2xl font-semibold p-5 text-white z-10 mx-auto w-full;
+    @apply md:text-xl lg:text-xl font-semibold p-5 text-white z-10 mx-auto w-full;
     transition: all 0.3s;
     transition-delay: 0.1s;
     opacity: 0;

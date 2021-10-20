@@ -34,7 +34,7 @@ export default function Header({ hasBackButton = false, hideMenu = false, hideLo
         {children}
         <SocialIcons />
         <BurgerTrigger active={isMobileMenuOpen} onClick={toggleMobileMenu} />
-        <button onClick={openPopup} className="border-2 items-center px-3 py-2 self-center ml-1 sm:ml-3 hover:bg-white hover:text-space-default transition-all font-semibold hidden sm:flex">Contact Me</button>
+        <button onClick={openPopup} className="border-2 items-center px-3 py-2 self-center ml-1 sm:ml-3 hover:bg-white hover:text-space-default transition-all font-normal hidden sm:flex">Contact Me</button>
       </div>
       {isMobileMenuOpen && <MobileMenu isOpen={isMobileMenuOpen} />}
     </header>

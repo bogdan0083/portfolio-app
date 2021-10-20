@@ -1,5 +1,5 @@
 .container {
-    @apply inline-block h-11 sm:h-14 align-middle self-center mx-auto mt-4 sm:mt-7 text-center bg-indigo-900 text-white w-72 sm:w-72 font-bold text-center text-xl sm:text-xl relative shadow;
+    @apply inline-block h-11 sm:h-14 align-middle self-center mx-auto mt-4 sm:mt-7 bg-indigo-900 text-white w-72 sm:w-72 font-normal text-center text-xl sm:text-xl relative shadow;
 }
 
 .item {
@@ -9,7 +9,7 @@
 }
 
 .current {
-    transform: translateY(-0.2rem);
+    transform: translateY(-0.05rem);
     opacity: 1;
 }
 
