@@ -5,7 +5,7 @@ import ContactMePopup from '../ContactMePopup';
 import { useContext, useEffect } from 'react';
 import { UIContext } from '../../contexts/UIContext';
 
-const containerDefaultClass = "flex flex-col items-center justify-center min-h-screen bg-white";
+const containerDefaultClass = "flex flex-col items-center justify-center min-h-screen";
 
 export default function DefaultLayout({ children, head, header, footer, pageTitle = null, defaultClass, containerStyle }) {
     const title = pageTitle || 'Bogdan Dolin | Front-End Developer';
