@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Button from "./Button";
 import styles from "./ProjectItem.module.css";
 
-export default function ProjectItem({ name, caption, url, collaboration, pages, key }) {
+export default function ProjectItem({ name, caption, url, collaboration, pages, blurDataURL }) {
     const imgSrc = `/preview-images/${name}.jpg`;
     const router = useRouter();
 
@@ -16,28 +16,30 @@ export default function ProjectItem({ name, caption, url, collaboration, pages, 
     }
 
     return (
-        <li className={styles.item} key={key}>
-            <div className={styles.imageWrap}>
-                <Image width={900} height={900} src={imgSrc} unoptimized={true} />
-            </div>
-            <div className={styles.overlay}>
-                <div className={styles.overlayInner}>
-                    <div className={styles.center}>
-                        <div className={styles.caption}>
-                            {Array.isArray(caption) && (
-                                caption.map(item => <div>{item}</div>)
-                            )}
-                            {!Array.isArray(caption) && caption}
-                        </div>
-                        <div className={styles.buttonWrap}>
-                            {button}
-                        </div>
-                    </div>
-                    {collaboration && (
-                        <div className={styles.collaboration} dangerouslySetInnerHTML={{ __html: collaboration }} />
-                    )}
+        <>
+            <li className={styles.item}>
+                <div className={styles.imageWrap}>
+                    <Image width={900} height={900} src={imgSrc} blurDataURL={blurDataURL} />
                 </div>
-            </div>
-        </li>
+                <div className={styles.overlay}>
+                    <div className={styles.overlayInner}>
+                        <div className={styles.center}>
+                            <div className={styles.caption}>
+                                {Array.isArray(caption) && (
+                                    caption.map(item => <div>{item}</div>)
+                                )}
+                                {!Array.isArray(caption) && caption}
+                            </div>
+                            <div className={styles.buttonWrap}>
+                                {button}
+                            </div>
+                        </div>
+                        {collaboration && (
+                            <div className={styles.collaboration} dangerouslySetInnerHTML={{ __html: collaboration }} />
+                        )}
+                    </div>
+                </div>
+            </li>
+        </>
     )
 }
