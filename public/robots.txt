@@ -1,0 +1,5 @@
+User-agent: *
+Dissalow: /project-previews/
+
+User-agent: *
+Dissalow: /project-previews/*
