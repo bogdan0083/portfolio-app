@@ -1,5 +1,5 @@
 # CRITICAL: MOVE SMTP USERNAME AND PW TO SECRETS
-# Add twitter social icon
+# (mobile) particles doesn't work on mobile for some reason. Add an issue about it.
 # Consider adding emojis
 # Add custom scrollbar
 # Add lazy blur for project previews
