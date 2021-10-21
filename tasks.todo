@@ -1,13 +1,11 @@
-# CRITICAL: MOVE SMTP USERNAME AND PW TO SECRETS
-# (mobile) particles doesn't work on mobile for some reason. Add an issue about it.
+# Write awesome README about portfolio app
+# Add cool domain
 # Consider adding emojis
-# Add custom scrollbar
 # Add lazy blur for project previews
-# Change glamurix design type (Ищите -> Ищете)
-# Optimize images
 # Add beautiful 404 page
 # Add footer link with source code of this website
 # Add favicon
 # Some project items doesn't look good. Consider changing them later
 # (Contact Me) Add button phantom effect
 # (About Me) Add CV
+# (mobile) particles doesn't work on mobile for some reason. Add an issue about it.
