@@ -17,7 +17,7 @@ export default function MainNav({ isMobile = false }) {
 
     const navClass = cx({
         "items-center flex flex-col text-4xl mt-auto font-bold": isMobile,
-        "items-center ml-1 sm:ml-7 hidden sm:flex": !isMobile
+        "items-center ml-1 sm:ml-2 md:ml-7 hidden sm:flex": !isMobile
     });
 
     return (
