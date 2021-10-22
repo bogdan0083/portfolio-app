@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import Button from "./Button";
 import styles from "./ProjectItem.module.css";
+import isMobile from "../utils/isMobile";
 
 export default function ProjectItem({ name, caption, url, collaboration, pages, blurDataURL }) {
     const imgSrc = `/preview-images/${name}.jpg`;
@@ -10,7 +11,13 @@ export default function ProjectItem({ name, caption, url, collaboration, pages, 
     let button;
     if (pages) {
         const route = `/project/${name}`;
-        button = <Button text="See Pages" theme='light' onClick={() => router.push(route)} />
+        button = <Button text="See Pages" theme='light' onClick={() => {
+            if (isMobile()) {
+                router.push(`/project-previews/${name}/preview.html`);
+            } else {
+                router.push(route);
+            }
+        }} />
     } else {
         button = <Button text="Visit Website" theme='light' href={url} />
     }
