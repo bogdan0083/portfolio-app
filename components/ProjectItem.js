@@ -16,30 +16,33 @@ export default function ProjectItem({ name, caption, url, collaboration, pages, 
     }
 
     return (
-        <>
-            <li className={styles.item}>
-                <div className={styles.imageWrap}>
-                    <Image width={900} height={900} src={imgSrc} blurDataURL={blurDataURL} />
-                </div>
-                <div className={styles.overlay}>
-                    <div className={styles.overlayInner}>
-                        <div className={styles.center}>
-                            <div className={styles.caption}>
-                                {Array.isArray(caption) && (
-                                    caption.map(item => <div>{item}</div>)
-                                )}
-                                {!Array.isArray(caption) && caption}
-                            </div>
-                            <div className={styles.buttonWrap}>
-                                {button}
-                            </div>
+        <li className={styles.item}>
+            <div className={styles.imageWrap}>
+                {blurDataURL && (
+                    <Image width={900} height={900} src={imgSrc} placeholder="blur" blurDataURL={blurDataURL} />
+                )}
+                {!blurDataURL && (
+                    <Image width={900} height={900} src={imgSrc} />
+                )}
+            </div>
+            <div className={styles.overlay}>
+                <div className={styles.overlayInner}>
+                    <div className={styles.center}>
+                        <div className={styles.caption}>
+                            {Array.isArray(caption) && (
+                                caption.map(item => <div>{item}</div>)
+                            )}
+                            {!Array.isArray(caption) && caption}
                         </div>
-                        {collaboration && (
-                            <div className={styles.collaboration} dangerouslySetInnerHTML={{ __html: collaboration }} />
-                        )}
+                        <div className={styles.buttonWrap}>
+                            {button}
+                        </div>
                     </div>
+                    {collaboration && (
+                        <div className={styles.collaboration} dangerouslySetInnerHTML={{ __html: collaboration }} />
+                    )}
                 </div>
-            </li>
-        </>
+            </div>
+        </li>
     )
 }

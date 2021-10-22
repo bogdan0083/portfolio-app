@@ -10,7 +10,7 @@
             ],
             "url": "https://gagarinsport.com/",
             "collaboration": "Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>",
-            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM8+x8AAp8BznoPXvoAAAAASUVORK5CYII="
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP88B8AAuUB8e2ujYwAAAAASUVORK5CYII="
         },
         {
             "name": "glamurix",
@@ -20,7 +20,8 @@
                 "beauty salons around you."
             ],
             "url": "https://glamurix.ru/",
-            "collaboration": "Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>"
+            "collaboration": "Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>",
+            "blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8u3LmfwAH6gMwu95DhQAAAABJRU5ErkJggg=="
         },
         {
             "name": "formani",
@@ -29,14 +30,16 @@
                 "Global luxury brand specialized",
                 "in architectural hardware."
             ],
-            "url": "https://formani.com/"
+            "url": "https://formani.com/",
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkUnL6DwAB+wFnTdh+HAAAAABJRU5ErkJggg=="
         },
         {
             "name": "sezar",
             "title": "Sezar Group",
             "url": "https://sezar-group.ru/en",
             "caption": "High-end real estate developer.",
-            "collaboration": "Collaboration with <a href='https://www.liqium.ru/' target='_blank'>Liqium</a>"
+            "collaboration": "Collaboration with <a href='https://www.liqium.ru/' target='_blank'>Liqium</a>",
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN09wn7DwADtQHq0Awp+QAAAABJRU5ErkJggg=="
         },
         {
             "name": "cgk",
@@ -47,6 +50,7 @@
             ],
             "url": "https://ya.ru",
             "collaboration": "Collaboration with <a href='https://www.liqium.ru/' target='_blank'>Liqium</a>",
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
             "pages": [
                 {
                     "title": "Home",
@@ -82,7 +86,8 @@
                 "Russian's biggest tour operator.",
                 "Turn your dream into the adventure of a lifetime."
             ],
-            "collaboration": "Design by <a href='https://kozyris.com/' target='_blank'>Kozyris & Co</a>"
+            "collaboration": "Design by <a href='https://kozyris.com/' target='_blank'>Kozyris & Co</a>",
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8aiT/HwAE8QIX8TRaDAAAAABJRU5ErkJggg=="
         },
         {
             "name": "dekanter",
@@ -91,7 +96,8 @@
             "caption": [
                 "Service for wine lovers."
             ],
-            "collaboration": "Back-end by <a href='https://kozyris.com/' target='_blank'>Kozyris & Co</a>"
+            "collaboration": "Back-end by <a href='https://kozyris.com/' target='_blank'>Kozyris & Co</a>",
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mMME9f5DwAC/gGaQjY9DQAAAABJRU5ErkJggg=="
         },
         {
             "name": "fpm",
@@ -100,7 +106,8 @@
             "caption": [
                 "Social Media about medicine and healthcare."
             ],
-            "collaboration": "Front-end and Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>"
+            "collaboration": "Front-end and Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>",
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcWzz/PwAGFAKwhEZHbwAAAABJRU5ErkJggg=="
         },
         {
             "name": "technos",
@@ -110,7 +117,8 @@
                 "Services for the sale and repair of cash registers,",
                 "weighing equipment, banking equipment."
             ],
-            "collaboration": "Back-end and Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>"
+            "collaboration": "Back-end and Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>",
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNMWLzrPwAF5gK+YT3sswAAAABJRU5ErkJggg=="
         },
         {
             "name": "nabat",
@@ -118,7 +126,8 @@
             "url": "https://nabatt.ru/",
             "caption": [
                 "Electric scooter servicing."
-            ]
+            ],
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8N5HlPwAGvAKU9njoewAAAABJRU5ErkJggg=="
         },
         {
             "name": "questteam",
@@ -127,6 +136,7 @@
                 "Exiting team quests service."
             ],
             "collaboration": "Design by <a href='https://www.cherepkova.ru/' target='_blank'>Cherepkova Agency</a>",
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNUtU3+DwADGgHGcCaUpgAAAABJRU5ErkJggg==",
             "pages": [
                 {
                     "title": "Home",
@@ -198,6 +208,7 @@
             "name": "timesprint",
             "title": "TimeSprint",
             "url": "https://timesprint.ru/",
+            "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8+/LFfwAJSAO/jwaG1QAAAABJRU5ErkJggg==",
             "caption": [
                 "Pravda newspaper - an original gift for birthday."
             ]
