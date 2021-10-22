@@ -11,7 +11,7 @@ export async function getStaticProps({ params }) {
 export default function ProjectsPage({ projects }) {
 
     return (
-        <DefaultLayout pageTitle="Bogdan Dolin | Front-End Developer">
+        <DefaultLayout pageTitle="Bogdan Dolin | Projects">
             <section className="pt-24 md:pt-36 text-white z-10 text-center w-full min-h-screen">
                 <div className="container mx-auto">
                     <h3 className="text-2xl font-bold mb-1 md:mb-3 md:text-5xl">My Recent Projects</h3>

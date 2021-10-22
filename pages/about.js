@@ -15,7 +15,7 @@ export default function AboutPage() {
   }
 
   return (
-    <DefaultLayout>
+    <DefaultLayout pageTitle="Bogdan Dolin | About Me">
       <section className="pt-24 pb-8 md:pb-20 md:pt-36 text-white z-10 text-left w-full min-h-screen">
         <div className="container mx-auto px-3">
           <h3 className="text-4xl font-bold mb-6 md:mb-6 md:text-5xl text-center">About Me</h3>
