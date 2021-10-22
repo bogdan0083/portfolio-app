@@ -51,7 +51,7 @@ const PreviewPage = ({ project }) => {
   }, [currentPreviewPage]);
 
   const iframeClasses = classNames({
-    "absolute left-0 t-0 w-full h-full transition-opacity": true,
+    "absolute left-0 top-0 w-full h-full transition-opacity": true,
     "opacity-0": !iframeLoaded,
     "opacity-1": iframeLoaded,
   });
