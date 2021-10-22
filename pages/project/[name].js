@@ -70,7 +70,7 @@ const PreviewPage = ({ project }) => {
 
   return (
     <DefaultLayout pageTitle={title} header={header} footer={<></>} defaultClass={containerClass} containerStyle={{ paddingTop: UI.headerHeight }}>
-      <div className="h-screen relative justify-center items-center w-full overflow-hidden">
+      <div className="flex h-screen relative justify-center items-center w-full overflow-hidden">
         <iframe src={homeIframeSrc} ref={iframeRef} id="iframe" className={iframeClasses}></iframe>
         {!iframeLoaded && (
           <Spinner />
