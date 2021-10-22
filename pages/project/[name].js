@@ -70,8 +70,10 @@ const PreviewPage = ({ project }) => {
 
   return (
     <DefaultLayout pageTitle={title} header={header} footer={<></>} defaultClass={containerClass} containerStyle={{ paddingTop: UI.headerHeight }}>
-      <div className="flex h-screen relative justify-center items-center w-full overflow-hidden">
-        <iframe src={homeIframeSrc} ref={iframeRef} id="iframe" className={iframeClasses}></iframe>
+      <div className="h-screen relative justify-center items-center w-full overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full overflow-y-scroll" style={{ WebkitOverflowScrolling: 'touch' }}>
+          <iframe src={homeIframeSrc} ref={iframeRef} id="iframe" className={iframeClasses}></iframe>
+        </div>
         {!iframeLoaded && (
           <Spinner />
         )}

@@ -2261,8 +2261,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .out {
-  overflow: hidden;
-  position: relative;
+  overflow-x: hidden;
+	position: fixed;
+	top: 0;
+	right:0;
+	bottom:0;
+	left: 0;
+	overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* forbid focusing elements inside slides */
