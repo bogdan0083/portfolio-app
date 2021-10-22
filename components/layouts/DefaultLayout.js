@@ -8,7 +8,7 @@ import { UIContext } from '../../contexts/UIContext';
 const containerDefaultClass = "flex flex-col items-center justify-center min-h-screen";
 
 export default function DefaultLayout({ children, head, header, footer, pageTitle = null, defaultClass, containerStyle }) {
-    const title = pageTitle || 'Bogdan Dolin | Front-End Developer';
+    const title = pageTitle || 'Bogdan Dolin | Web Developer';
     const [UI] = useContext(UIContext);
 
     useEffect(() => {
