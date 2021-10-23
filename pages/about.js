@@ -1,9 +1,11 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
+import myAvatarImage from '../public/me.jpg';
 import { useContext } from 'react';
-import Particles from 'react-tsparticles'
+import Particles from 'react-tsparticles';
 import DefaultLayout from '../components/layouts/DefaultLayout'
 import { UIContext } from '../contexts/UIContext';
-import particlesPreset from '../particlesPreset'
+import particlesPreset from '../particlesPreset';
 
 export default function AboutPage() {
 
@@ -22,7 +24,9 @@ export default function AboutPage() {
           <div className="mx-auto md:w-full lg:w-11/12 xl:w-8/12 2xl:w-8/12">
             <div className="-ml-2 -mr-2 md:flex">
               <div className="p-2 md:mr-10">
-                <div className="border-4 w-44 h-44 bg-space-default rounded-full mx-auto mb-5"></div>
+                <div className="w-60 h-60 border-4 bg-space-default rounded-full mx-auto mb-5 overflow-hidden">
+                  <Image src={myAvatarImage} layout="responsive" />
+                </div>
               </div>
               <div className="p-2">
                 <div className="text-md lg:text-lg xl:text-xl xl:leading-8">
