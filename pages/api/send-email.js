@@ -36,8 +36,9 @@ export default async function sendEmailAPI(req, res) {
         res.status(200).json({ type: 'success' });
       });
     } catch (e) {
-      rollbar.error(e, req);
-      res.status(200).json({ type: 'error' });
+      rollbar.error(e, req, (err) => {
+        res.status(200).json({ type: 'error' });
+      });
     }
   }
 }
