@@ -1,5 +1,6 @@
-![BOGDANWEB](/logo.svg?raw=true&sanitize=true "BOGDANWEB")
 # My Awesome Portfolio App
+
+![BOGDANWEB](/logo.svg?raw=true&sanitize=true "BOGDANWEB")
 
 This repository contains the source code of my portfolio website, build on the following awesome technologies:
 
