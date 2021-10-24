@@ -24,6 +24,10 @@ export default async function sendEmailAPI(req, res) {
     // send mail with defined transport object
     const { name, email, message } = req.body;
     try {
+      rollbar.log('Email sent successfully: ', req, err => {
+        console.log('rollbar log result:');
+        console.log(err);
+      });
       let info = await transporter.sendMail({
         from: 'My Portfolio Website', // sender address
         to: "bogdan.d1995@gmail.com", // list of receivers
@@ -33,10 +37,6 @@ export default async function sendEmailAPI(req, res) {
             <p>Message: ${message}</p>`,
       });
       console.log('process.env.ROLLBAR_POST_SERVER_ITEM_TOKEN: ', process.env.ROLLBAR_POST_SERVER_ITEM_TOKEN);
-      rollbar.log('Email sent successfully: ', req, err => {
-        console.log('rollbar log result:');
-        console.log(err);
-      });
       res.status(200).json({ type: 'success' });
     } catch (e) {
       rollbar.error(e, req);
