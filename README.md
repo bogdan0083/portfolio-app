@@ -2,7 +2,7 @@
 
 ![BOGDANWEB](/logo.svg?raw=true&sanitize=true "BOGDANWEB")
 
-This repository contains the source code of my portfolio website, build on the following awesome technologies:
+This repository contains the source code of my portfolio website, built on the following awesome technologies:
 
 * [React](https://nextjs.org/)
 * [Next.js](https://nextjs.org/)
