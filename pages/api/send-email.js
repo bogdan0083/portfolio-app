@@ -1,5 +1,12 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import nodemailer from "nodemailer";
+import Rollbar from "rollbar";
+
+var rollbar = new Rollbar({
+  accessToken: process.env.ROLLBAR_POST_SERVER_ITEM_TOKEN,
+  captureUncaught: true,
+  captureUnhandledRejections: true
+});
 
 // create reusable transporter object using the default SMTP transport
 let transporter = nodemailer.createTransport({
@@ -25,12 +32,10 @@ export default async function sendEmailAPI(req, res) {
             <p>E-mail: ${email}</p>
             <p>Message: ${message}</p>`,
       });
+      rollbar.info('Email sent successfully: ', req);
       res.status(200).json({ type: 'success' });
-    } catch (error) {
-      console.log('EMAIL SEND ERROR');
-      console.log('SMTP_USER:', process.env.SMTP_USER);
-      console.log('SMTP_PASS::', process.env.SMTP_PASS);
-      console.log(error);
+    } catch (e) {
+      rollbar.error(e, req);
       res.status(200).json({ type: 'error' });
     }
   }
