@@ -33,7 +33,10 @@ export default async function sendEmailAPI(req, res) {
             <p>Message: ${message}</p>`,
       });
       console.log('process.env.ROLLBAR_POST_SERVER_ITEM_TOKEN: ', process.env.ROLLBAR_POST_SERVER_ITEM_TOKEN);
-      rollbar.log('Email sent successfully: ', req);
+      rollbar.log('Email sent successfully: ', req, err => {
+        console.log('rollbar log result:');
+        console.log(err);
+      });
       res.status(200).json({ type: 'success' });
     } catch (e) {
       rollbar.error(e, req);
