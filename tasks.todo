@@ -9,3 +9,4 @@
 # (About Me) Add CV
 # (mobile) particles doesn't work on mobile for some reason. Add an issue about it.
 # Add beautiful 404 page
+# Setup rollbar for a whole Nextjs app
