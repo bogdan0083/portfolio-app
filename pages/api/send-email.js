@@ -27,6 +27,9 @@ export default async function sendEmailAPI(req, res) {
       });
       res.status(200).json({ type: 'success' });
     } catch (error) {
+      console.log('EMAIL SEND ERROR');
+      console.log('SMTP_USER:', process.env.SMTP_USER);
+      console.log(error);
       res.status(200).json({ type: 'error' });
     }
   }
