@@ -29,6 +29,7 @@ export default async function sendEmailAPI(req, res) {
     } catch (error) {
       console.log('EMAIL SEND ERROR');
       console.log('SMTP_USER:', process.env.SMTP_USER);
+      console.log('SMTP_PASS::', process.env.SMTP_PASS);
       console.log(error);
       res.status(200).json({ type: 'error' });
     }
