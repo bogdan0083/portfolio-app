@@ -38,7 +38,7 @@ export default function AboutPage() {
                     If you like <Link href="/projects"><a href="/projects" className="text-indigo-200 border-b-2 border-indigo-200 transition-all hover:border-transparent">the things I do</a></Link> and want to work together, <a className="text-indigo-200 border-b-2 border-indigo-200 transition-all hover:border-transparent" href="#" onClick={openPopup}>let's have a talk!</a> I'm always open to new opportunities and projects.
                   </p>
                   <p className="text-xl text-center md:text-left">
-                    Have a great day!
+                    Have a great day! 👋
                   </p>
                 </div>
               </div>
