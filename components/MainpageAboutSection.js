@@ -3,7 +3,7 @@ export default function MainpageAboutSection() {
     return (
         <section className="w-full bg-white z-10 pt-9 pb-14 md:pt-24 md:pb-20 text-center">
             <div className="container mx-auto px-3">
-                <h2 className="font-bold text-2xl max-w-xs w-full sm:max-w-none mx-auto sm:w-9/12 sm:text-4xl md:text-5xl sm:leading-tight md:leading-tight md:w-3/4 lg:w-full text-gray-900 mb-3 sm:mb-8"> High Competency With Huge Experience</h2>
+                <h2 className="font-bold text-2xl max-w-xs w-full sm:max-w-none mx-auto sm:w-9/12 sm:text-4xl md:text-5xl sm:leading-tight md:leading-tight md:w-3/4 lg:w-full text-gray-900 mb-3 sm:mb-8"> High Proficiency With Huge Experience</h2>
                 <p className="text-1xl mx-auto sm:text-xl md:text-2xl sm:w-11/12 lg:w-10/12 xl:w-8/12 2xl:w-7/12 mb-6 sm:mb-10 lg:mb-20">I started my web developer career ten years ago and collaborated with hundreds of talented people to create digital products for both business and consumer use. <span className="font-bold text-indigo-700">My primary goal is to solve your business problems</span>, not just code for pleasure. I do care about user experience.</p>
                 <div className="border -mb-2 z-10 relative md:mb-8 flex flex-col md:flex-row text-center md:w-12/12 xl:w-9/12 2xl:w-8/12 mx-auto shadow bg-white">
                     <div className="w-full md:w-1/2 px-3 py-9 sm:py-9 border-b md:border-b-0 md:border-r">

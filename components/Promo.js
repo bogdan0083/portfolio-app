@@ -8,7 +8,7 @@ export default function Promo() {
     <>
       <section className="container mx-auto min-h-screen text-center items-center text-white justify-center flex font-bold">
         <div className="items-center flex flex-col z-10 fixed">
-          <h1 className={styles.h1}>Hi! My name is Bogdan.</h1>
+          <h1 className={styles.h1}>Hi! My name is Bogdan 👋</h1>
           <h2 className={styles.h2}>
             I am a professional web developer who specializes in{' '}
           </h2>
