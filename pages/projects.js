@@ -20,7 +20,7 @@ export default function ProjectsPage({ projects }) {
                 </div>
                 <ProjectList items={projects} />
             </section>
-            <Particles id="tsparticles" params={particlesPreset} />
+            {/*<Particles id="tsparticles" params={particlesPreset} />*/}
         </DefaultLayout>
     )
 }

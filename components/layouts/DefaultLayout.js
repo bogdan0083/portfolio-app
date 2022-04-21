@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+import Header from '../Header'
+import Footer from '../Footer'
 import ContactMePopup from '../ContactMePopup';
 import { useContext, useEffect } from 'react';
 import { UIContext } from '../../contexts/UIContext';

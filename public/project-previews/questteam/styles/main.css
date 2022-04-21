@@ -1365,7 +1365,7 @@ td, th {
 	right: 0;
 	top: 0;
 	z-index: 10;
-	background: #008ed5 url("../images/icons/arrow-down.png") no-repeat center;
+	background: #008ed5 url("public/project-previews/questteam/images/icons/arrow-down.png") no-repeat center;
 }
 .ui-selectmenu-icon.ui-icon:hover {
 	background-color: #0080c0;
@@ -2001,43 +2001,43 @@ input.ui-button::-moz-focus-inner, button.ui-button::-moz-focus-inner {
 }
 @font-face {
 	font-family: "Blogger Sans";
-	src: url("../fonts/BloggerSans.eot");
-	src: url("../fonts/BloggerSans.eot?#iefix") format("embedded-opentype"), url("../fonts/BloggerSans.woff") format("woff"), url("../fonts/BloggerSans.ttf") format("truetype"), url("../fonts/BloggerSans.svg#Blogger Sans") format("svg");
+	src: url("public/project-previews/questteam/fonts/BloggerSans.eot");
+	src: url("public/project-previews/questteam/fonts/BloggerSans.eot?#iefix") format("embedded-opentype"), url("public/project-previews/questteam/fonts/BloggerSans.woff") format("woff"), url("public/project-previews/questteam/fonts/BloggerSans.ttf") format("truetype"), url("public/project-previews/questteam/fonts/BloggerSans.svg#Blogger Sans") format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Blogger Sans";
-	src: url("../fonts/BloggerSans-Bold.eot");
-	src: url("../fonts/BloggerSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BloggerSans-Bold.woff") format("woff"), url("../fonts/BloggerSans-Bold.ttf") format("truetype"), url("../fonts/BloggerSans-Bold.svg#Blogger Sans") format("svg");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-Bold.eot");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-Bold.eot?#iefix") format("embedded-opentype"), url("public/project-previews/questteam/fonts/BloggerSans-Bold.woff") format("woff"), url("public/project-previews/questteam/fonts/BloggerSans-Bold.ttf") format("truetype"), url("public/project-previews/questteam/fonts/BloggerSans-Bold.svg#Blogger Sans") format("svg");
 	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Blogger Sans";
-	src: url("../fonts/BloggerSans-Italic.eot");
-	src: url("../fonts/BloggerSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/BloggerSans-Italic.woff") format("woff"), url("../fonts/BloggerSans-Italic.ttf") format("truetype"), url("../fonts/BloggerSans-Italic.svg#Blogger Sans") format("svg");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-Italic.eot");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-Italic.eot?#iefix") format("embedded-opentype"), url("public/project-previews/questteam/fonts/BloggerSans-Italic.woff") format("woff"), url("public/project-previews/questteam/fonts/BloggerSans-Italic.ttf") format("truetype"), url("public/project-previews/questteam/fonts/BloggerSans-Italic.svg#Blogger Sans") format("svg");
 	font-weight: 400;
 	font-style: italic;
 }
 @font-face {
 	font-family: "Blogger Sans";
-	src: url("../fonts/BloggerSans-Medium.eot");
-	src: url("../fonts/BloggerSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/BloggerSans-Medium.woff") format("woff"), url("../fonts/BloggerSans-Medium.ttf") format("truetype"), url("../fonts/BloggerSans-Medium.svg#Blogger Sans") format("svg");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-Medium.eot");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-Medium.eot?#iefix") format("embedded-opentype"), url("public/project-previews/questteam/fonts/BloggerSans-Medium.woff") format("woff"), url("public/project-previews/questteam/fonts/BloggerSans-Medium.ttf") format("truetype"), url("public/project-previews/questteam/fonts/BloggerSans-Medium.svg#Blogger Sans") format("svg");
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Blogger Sans";
-	src: url("../fonts/BloggerSans-MediumItalic.eot");
-	src: url("../fonts/BloggerSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BloggerSans-MediumItalic.woff") format("woff"), url("../fonts/BloggerSans-MediumItalic.ttf") format("truetype"), url("../fonts/BloggerSans-MediumItalic.svg#Blogger Sans") format("svg");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-MediumItalic.eot");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("public/project-previews/questteam/fonts/BloggerSans-MediumItalic.woff") format("woff"), url("public/project-previews/questteam/fonts/BloggerSans-MediumItalic.ttf") format("truetype"), url("public/project-previews/questteam/fonts/BloggerSans-MediumItalic.svg#Blogger Sans") format("svg");
 	font-weight: 500;
 	font-style: italic;
 }
 @font-face {
 	font-family: "Blogger Sans";
-	src: url("../fonts/BloggerSans-BoldItalic.eot");
-	src: url("../fonts/BloggerSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BloggerSans-BoldItalic.woff") format("woff"), url("../fonts/BloggerSans-BoldItalic.ttf") format("truetype"), url("../fonts/BloggerSans-BoldItalic.svg#Blogger Sans") format("svg");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-BoldItalic.eot");
+	src: url("public/project-previews/questteam/fonts/BloggerSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("public/project-previews/questteam/fonts/BloggerSans-BoldItalic.woff") format("woff"), url("public/project-previews/questteam/fonts/BloggerSans-BoldItalic.ttf") format("truetype"), url("public/project-previews/questteam/fonts/BloggerSans-BoldItalic.svg#Blogger Sans") format("svg");
 	font-weight: 700;
 	font-style: italic;
 }
@@ -2300,7 +2300,7 @@ input.ui-button::-moz-focus-inner, button.ui-button::-moz-focus-inner {
 	max-height: 100%;
 }
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url("../images/fancybox_sprite.png");
+	background-image: url("public/project-previews/questteam/images/fancybox_sprite.png");
 }
 #fancybox-loading {
 	position: fixed;
@@ -2316,7 +2316,7 @@ input.ui-button::-moz-focus-inner, button.ui-button::-moz-focus-inner {
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url("../images/fancybox_loading.gif") center center no-repeat;
+	background: url("public/project-previews/questteam/images/fancybox_loading.gif") center center no-repeat;
 }
 .fancybox-close {
 	position: absolute;
@@ -2334,7 +2334,7 @@ input.ui-button::-moz-focus-inner, button.ui-button::-moz-focus-inner {
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url("../images/blank.gif");
+	background: transparent url("public/project-previews/questteam/images/blank.gif");
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
@@ -2452,11 +2452,11 @@ input.ui-button::-moz-focus-inner, button.ui-button::-moz-focus-inner {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
 	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-		background-image: url("../images/fancybox_sprite@2x.png");
+		background-image: url("public/project-previews/questteam/images/fancybox_sprite@2x.png");
 		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 	#fancybox-loading div {
-		background-image: url("../images/fancybox_loading@2x.gif");
+		background-image: url("public/project-previews/questteam/images/fancybox_loading@2x.gif");
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 }
@@ -2482,448 +2482,448 @@ body {
 	font-family: "Blogger Sans", sans-serif;
 	font-weight: 400;
 	overflow-x: hidden;
-	background: url("../images/2.jpg") repeat center;
+	background: url("public/project-previews/questteam/images/2.jpg") repeat center;
 }
 .i-arrow-down {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -412px -392px;
 	width: 11px;
 	height: 5px;
 }
 .i-arrow-small-left {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -402px -292px;
 	width: 5px;
 	height: 10px;
 }
 .i-arrow-small-right {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -371px -165px;
 	width: 5px;
 	height: 10px;
 }
 .i-balloon {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: 0 -195px;
 	width: 50px;
 	height: 92px;
 }
 .i-calendar-blue {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -141px -347px;
 	width: 24px;
 	height: 24px;
 }
 .i-calendar-white {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -388px;
 	width: 16px;
 	height: 16px;
 }
 .i-checkbox-checked {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -94px -251px;
 	width: 31px;
 	height: 25px;
 }
 .i-checkbox {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -226px;
 	width: 14px;
 	height: 24px;
 }
 .i-clock-white {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -367px;
 	width: 17px;
 	height: 16px;
 }
 .i-clock {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px 0;
 	width: 17px;
 	height: 24px;
 }
 .i-cross {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -369px -347px;
 	width: 20px;
 	height: 20px;
 }
 .i-door-quit-white {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -353px -137px;
 	width: 22px;
 	height: 23px;
 }
 .i-door-quit {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -284px -347px;
 	width: 22px;
 	height: 23px;
 }
 .i-door-small-open {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -409px;
 	width: 11px;
 	height: 18px;
 }
 .i-door-small-white {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -170px -403px;
 	width: 10px;
 	height: 16px;
 }
 .i-door-small {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -394px -347px;
 	width: 10px;
 	height: 16px;
 }
 .i-door {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -283px;
 	width: 14px;
 	height: 23px;
 }
 .i-fb {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -332px -195px;
 	width: 40px;
 	height: 40px;
 }
 .i-group-blue {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -200px -251px;
 	width: 31px;
 	height: 22px;
 }
 .i-group {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -344px -251px;
 	width: 31px;
 	height: 22px;
 }
 .i-hat-plus {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -55px -251px;
 	width: 34px;
 	height: 27px;
 }
 .i-hat {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -338px -292px;
 	width: 27px;
 	height: 23px;
 }
 .i-heart-plus {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -370px -292px;
 	width: 27px;
 	height: 23px;
 }
 .i-heart {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -199px -347px;
 	width: 24px;
 	height: 23px;
 }
 .i-history {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -340px -347px;
 	width: 24px;
 	height: 21px;
 }
 .i-i-hat-plus {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -412px -360px;
 	width: 34px;
 	height: 27px;
 }
 .i-i-man-flag-left {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -96px -292px;
 	width: 49px;
 	height: 41px;
 }
 .i-i-man-news {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -381px -103px;
 	width: 25px;
 	height: 41px;
 }
 .i-key {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -339px;
 	width: 12px;
 	height: 23px;
 }
 .i-king-white {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -46px -433px;
 	width: 18px;
 	height: 21px;
 }
 .i-king {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: 0 -433px;
 	width: 18px;
 	height: 21px;
 }
 .i-lock-blue {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: 0 -403px;
 	width: 19px;
 	height: 25px;
 }
 .i-lock {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -24px -403px;
 	width: 19px;
 	height: 25px;
 }
 .i-man-active {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -381px -195px;
 	width: 25px;
 	height: 41px;
 }
 .i-man-balloon {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -381px 0;
 	width: 26px;
 	height: 98px;
 }
 .i-man-cherry {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -92px -347px;
 	width: 44px;
 	height: 42px;
 }
 .i-man-comment {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -44px -347px;
 	width: 43px;
 	height: 46px;
 }
 .i-man-flag-left {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -224px -195px;
 	width: 49px;
 	height: 41px;
 }
 .i-man-flag {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -278px -195px;
 	width: 49px;
 	height: 41px;
 }
 .i-man-gear {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -228px -137px;
 	width: 59px;
 	height: 41px;
 }
 .i-man-group-run {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: 0 -137px;
 	width: 131px;
 	height: 53px;
 }
 .i-man-group {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -292px -137px;
 	width: 56px;
 	height: 41px;
 }
 .i-man-hang {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -412px 0;
 	width: 38px;
 	height: 51px;
 }
 .i-man-inactive {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -381px -149px;
 	width: 25px;
 	height: 41px;
 }
 .i-man-key {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -49px -292px;
 	width: 42px;
 	height: 50px;
 }
 .i-man-king-white {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -412px -171px;
 	width: 34px;
 	height: 46px;
 }
 .i-man-ladder {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -206px 0;
 	width: 170px;
 	height: 119px;
 }
 .i-man-phone {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -165px -195px;
 	width: 54px;
 	height: 41px;
 }
 .i-man-rope {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -412px -56px;
 	width: 31px;
 	height: 59px;
 }
 .i-man-run-one {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -412px -315px;
 	width: 29px;
 	height: 40px;
 }
 .i-man-run {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -136px -137px;
 	width: 87px;
 	height: 44px;
 }
 .i-man-runs-in {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -55px -195px;
 	width: 49px;
 	height: 51px;
 }
 .i-man-show {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -412px -222px;
 	width: 35px;
 	height: 41px;
 }
 .i-man-sit {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -381px -241px;
 	width: 21px;
 	height: 33px;
 }
 .i-man-sms {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -109px -195px;
 	width: 51px;
 	height: 46px;
 }
 .i-man-speak {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: 0 -292px;
 	width: 44px;
 	height: 50px;
 }
 .i-man-stand {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -412px -268px;
 	width: 33px;
 	height: 42px;
 }
 .i-man-talk {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -412px -120px;
 	width: 38px;
 	height: 46px;
 }
 .i-man-walks {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: 0 0;
 	width: 201px;
 	height: 132px;
 }
 .i-man-wizard {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: 0 -347px;
 	width: 39px;
 	height: 51px;
 }
 .i-marker {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -116px;
 	width: 16px;
 	height: 22px;
 }
 .i-menu1 {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -236px -251px;
 	width: 31px;
 	height: 22px;
 }
 .i-menu2 {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -146px -403px;
 	width: 19px;
 	height: 19px;
 }
 .i-menu3 {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -73px -403px;
 	width: 20px;
 	height: 23px;
 }
 .i-menu4 {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -273px -292px;
 	width: 28px;
 	height: 23px;
 }
 .i-notif {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -130px -251px;
 	width: 30px;
 	height: 24px;
 }
 .i-ok {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -150px -292px;
 	width: 40px;
 	height: 40px;
 }
 .i-rouble-blue {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -170px -347px;
 	width: 24px;
 	height: 24px;
 }
 .i-skrep {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -69px -433px;
 	width: 11px;
 	height: 21px;
 }
 .i-star {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -353px -165px;
 	width: 13px;
 	height: 13px;
 }
 .i-stick {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -198px;
 	width: 15px;
 	height: 23px;
 }
 .i-vk {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -195px -292px;
 	width: 40px;
 	height: 40px;
 }
 .i-wizard-white {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -58px;
 	width: 16px;
 	height: 24px;
 }
 .i-wizard {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -29px;
 	width: 16px;
 	height: 24px;
@@ -3046,127 +3046,127 @@ img {
 	}
 }
 .i-door:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -255px;
 	width: 14px;
 	height: 23px;
 }
 .i-door-quit:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -257px -347px;
 	width: 22px;
 	height: 23px;
 }
 .i-wizard:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -87px;
 	width: 16px;
 	height: 24px;
 }
 .i-marker:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -143px;
 	width: 16px;
 	height: 22px;
 }
 .i-key:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -311px;
 	width: 12px;
 	height: 23px;
 }
 .i-menu1:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -308px -251px;
 	width: 31px;
 	height: 22px;
 }
 .i-menu2:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -122px -403px;
 	width: 19px;
 	height: 19px;
 }
 .i-menu3:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -48px -403px;
 	width: 20px;
 	height: 23px;
 }
 .i-menu4:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -240px -292px;
 	width: 28px;
 	height: 23px;
 }
 .i-king:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -23px -433px;
 	width: 18px;
 	height: 21px;
 }
 .i-wizard-white:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -87px;
 	width: 16px;
 	height: 24px;
 }
 .i-hat:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -306px -292px;
 	width: 27px;
 	height: 23px;
 }
 .i-group:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -272px -251px;
 	width: 31px;
 	height: 22px;
 }
 .i-history:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -311px -347px;
 	width: 24px;
 	height: 21px;
 }
 .i-heart:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -228px -347px;
 	width: 24px;
 	height: 23px;
 }
 .i-notif:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -165px -251px;
 	width: 30px;
 	height: 24px;
 }
 .i-notif:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -165px -251px;
 	width: 30px;
 	height: 24px;
 }
 .i-stick:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -170px;
 	width: 15px;
 	height: 23px;
 }
 .i-lock:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: 0 -403px;
 	width: 19px;
 	height: 25px;
 }
 .i-door-quit-white:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -257px -347px;
 	width: 22px;
 	height: 23px;
 }
 .i-cross:hover {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -98px -403px;
 	width: 19px;
 	height: 20px;
@@ -3271,7 +3271,7 @@ h1, h2, h4, h5, h6 {
 	width: 270px;
 }
 .textured-dark {
-	background: url("../images/3.jpg") repeat center;
+	background: url("public/project-previews/questteam/images/3.jpg") repeat center;
 }
 .btn-secondary {
 	display: inline-block;
@@ -3365,13 +3365,13 @@ h1, h2, h4, h5, h6 {
 	outline: none;
 }
 .field-wrap-time button {
-	background-image: url("../images/icons/clock-white.png");
+	background-image: url("public/project-previews/questteam/images/icons/clock-white.png");
 }
 .field-wrap-date button {
-	background-image: url("../images/icons/calendar-white.png");
+	background-image: url("public/project-previews/questteam/images/icons/calendar-white.png");
 }
 .field-wrap-file button {
-	background-image: url("../images/icons/skrep.png");
+	background-image: url("public/project-previews/questteam/images/icons/skrep.png");
 }
 .field-wrap-file input {
 	width: 0.1px;
@@ -3445,7 +3445,7 @@ label.field {
 .header {
 	padding-top: 10px;
 	padding-bottom: 18px;
-	background: url("../images/1.jpg") repeat center;
+	background: url("public/project-previews/questteam/images/1.jpg") repeat center;
 	position: relative;
 	color: #000;
 }
@@ -3502,7 +3502,7 @@ label.field {
 	color: #2f2f2f;
 }
 .header .city-choose:hover .icon {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -143px;
 	width: 16px;
 	height: 22px;
@@ -3722,7 +3722,7 @@ label.field {
 	background-color: #7365c7;
 }
 .footer {
-	background: url("../images/1.jpg") repeat center;
+	background: url("public/project-previews/questteam/images/1.jpg") repeat center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
@@ -3854,7 +3854,7 @@ label.field {
 	margin: 0;
 }
 .last-quests-title {
-	background: url("../images/2.jpg") repeat center;
+	background: url("public/project-previews/questteam/images/2.jpg") repeat center;
 }
 .last-quests-title .heading {
 	width: 70%;
@@ -4113,7 +4113,7 @@ label.field {
 		left: 10px;
 		top: -620px;
 		height: 300px;
-		background: url("../images/ropeman.png") no-repeat;
+		background: url("public/project-previews/questteam/images/ropeman.png") no-repeat;
 		width: 31px;
 		height: 363px;
 		animation: 3s wiggle infinite;
@@ -4393,14 +4393,14 @@ label.field {
 	color: #fff;
 }
 .breadcrumbs a:hover:before {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -409px;
 	width: 11px;
 	height: 18px;
 }
 .breadcrumbs a:before {
 	content: "";
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -394px -347px;
 	width: 10px;
 	height: 16px;
@@ -4414,7 +4414,7 @@ label.field {
 }
 .breadcrumbs span:before {
 	content: "";
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -409px;
 	width: 11px;
 	height: 18px;
@@ -4437,7 +4437,7 @@ label.field {
 	margin-right: -4px;
 }
 .heading-title .team-count .icon.active {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -381px -195px;
 	width: 25px;
 	height: 41px;
@@ -4715,7 +4715,7 @@ label.field {
 }
 .checkbox input:checked + span:before {
 	left: 0;
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -94px -251px;
 	width: 31px;
 	height: 25px;
@@ -4734,7 +4734,7 @@ label.field {
 	left: 17px;
 	top: 50%;
 	margin-top: -13px;
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: -455px -226px;
 	width: 14px;
 	height: 24px;
@@ -5254,7 +5254,7 @@ label.field {
 	}
 }
 .arrow-up {
-	background-image: url("../images/sprites/sprites.png");
+	background-image: url("public/project-previews/questteam/images/sprites/sprites.png");
 	background-position: 0 -195px;
 	width: 50px;
 	height: 92px;

@@ -4,7 +4,7 @@ import Button from "./Button";
 import styles from "./ProjectItem.module.css";
 import isMobile from "../utils/isMobile";
 
-export default function ProjectItem({ name, caption, url, collaboration, pages, blurDataURL }) {
+export default function ProjectItem({ name, caption, url, collaboration, pages, blurDataURL, key }) {
     const imgSrc = `/preview-images/${name}.jpg`;
     const router = useRouter();
 
