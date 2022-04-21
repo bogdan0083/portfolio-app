@@ -14,10 +14,10 @@ export default function Promo() {
           </h2>
           <FeaturesSlider />
         </div>
-        <Particles
-          id="tsparticles"
-          options={particlesPreset}
-        />
+        {/*<Particles*/}
+        {/*  id="tsparticles"*/}
+        {/*  options={particlesPreset}*/}
+        {/*/>*/}
       </section>
     </>
   )
